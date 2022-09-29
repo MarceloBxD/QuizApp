@@ -1,0 +1,40 @@
+#welcome{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+body, html{
+    min-height: 100vh;
+    height: 100%;
+    background-color: #1c1c1c;
+    font-size: #fff;
+}
+
+h2, p{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button{
+    font-weight: bold;
+    padding: 8px 10px;
+    background: linear-gradient(90deg, rgba(132, 53, 222, 1) 0%, rgba(184, 84, 232, 1) 100%);
+    color: #000;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(184, 84, 232, 1) 0%,
+        rgba(132, 53, 222, 1) 100%
+    );
+}
